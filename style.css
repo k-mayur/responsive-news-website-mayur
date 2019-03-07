@@ -173,3 +173,46 @@ img {
 .row-data span {
     padding-left: 1.5rem;
 }
+
+/* weather section style */
+
+.weather {
+    width: 100%;
+    padding-bottom: 2rem;
+}
+
+.weather img {
+    zoom: 200%;
+}
+
+.weather-heading {
+    line-height: 1.5;
+    padding-left: 2rem;
+    padding-bottom: 1rem;
+}
+
+.weather-heading span {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+.weather-today {
+    display: flex;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+}
+
+.weather-today h4 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 2rem;
+}
+
+.weather-forcast {
+    display: flex;
+}
+
+.weather-week {
+    flex-grow: 1;
+    text-align: center;
+}
