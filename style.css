@@ -137,3 +137,39 @@ img {
     content: ">>";
     padding-right: 5px;
 }
+
+/* scoreboard style */
+
+.scoreboard {
+    width: 100%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.scores {
+    width: 100%;
+    line-height: 2.5;
+}
+
+.row-first {
+    padding-left: 2rem;
+}
+
+.row-heading {
+    color: rgba(0,0,0,0.2);
+    font-weight: 100;
+}
+
+.row-all {
+    color: rgba(0,0,0,0.8);
+}
+
+.row-data {
+    text-align: center;
+}
+
+.row-data span {
+    padding-left: 1.5rem;
+}
