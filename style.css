@@ -77,3 +77,30 @@ img {
     color: gray;
 }
 
+/* breaking news section style */
+
+.bnews {
+    display: flex;
+    align-items: flex-end;
+    background-image: url(images/dog.jpg);
+    background-position: 0% 50%;
+    background-size: cover;
+    height: 100vh;
+}
+
+.bnews-container {
+    background-color: aliceblue;
+    color: darkgray;
+    width: 100vw;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.bnews-heading {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.bnews-text {
+    font-size: 1.5rem;
+}
