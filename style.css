@@ -104,3 +104,36 @@ img {
 .bnews-text {
     font-size: 1.5rem;
 }
+
+/* top news style */
+
+.tnews {
+    line-height: 4;
+    color: gray;
+}
+
+.tnews-heading {
+    line-height: 3;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+}
+
+.tnews-head {
+    font-size: 1.5rem;
+    flex-grow: 1;
+}
+
+.tnews-more {
+    flex-grow: -1;    
+}
+
+.tnews-text {
+    list-style: none;
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+}
+
+.tnews-text::before {
+    content: ">>";
+    padding-right: 5px;
+}
