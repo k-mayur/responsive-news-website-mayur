@@ -39,6 +39,13 @@ img {
 }
 
 /* DOM Style */
+
+/* layout basic style */
+
+.layout {
+    background-color: white;
+}
+
 /* Header Style */
 
 .header {
@@ -94,6 +101,8 @@ img {
     width: 100vw;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    margin-left: 2px;
+    margin-right: 2px;
 }
 
 .bnews-heading {
@@ -116,16 +125,16 @@ img {
     line-height: 3;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
 }
 
 .tnews-head {
     font-size: 1.5rem;
-    flex-grow: 1;
 }
 
 .tnews-more {
-    flex-grow: -1;    
+    font-size: inherit;
 }
 
 .tnews-text {
