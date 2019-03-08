@@ -223,6 +223,7 @@ img {
 .lnews {
     color: gray;
     margin-bottom: 2rem;
+    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
 }
 
 .lnews-row {
@@ -238,4 +239,21 @@ img {
 
 .lnews-text h3 {
     font-weight: bold;
+}
+
+/* footer style */
+
+footer {
+    box-shadow: 0px 20px 10px -10px rgba(0,0,0,0.3);
+}
+
+.footer-space {
+    margin-bottom: 20rem;
+}
+
+.nav-footer {
+    display: flex;
+    text-align: center;
+    margin-top: 1rem;
+    width: 60%;
 }
