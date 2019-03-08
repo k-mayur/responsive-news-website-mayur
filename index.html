@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News-Mayur</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -30,12 +31,51 @@
             </nav>
         </section>
 
-        <section class="bnews">
-            <div class="bnews-container">
-                <h2 class="bnews-heading">Absolutely astonishing breaking news!</h2>
-                <p class="bnews-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet, cum
-                    reprehenderit architecto quo autem assumenda veritatis magnam velit cumque ducimus quasi fugiat
-                    delectus esse in culpa, blanditiis eligendi.</p>
+        <section class="bnews-wrapper">
+            <div class="bnews">
+                <div class="bnews-container">
+                    <h2 class="bnews-heading">Absolutely astonishing breaking news!</h2>
+                    <p class="bnews-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum amet,
+                        cum
+                        reprehenderit architecto quo autem assumenda veritatis magnam velit cumque ducimus quasi fugiat
+                        delectus esse in culpa, blanditiis eligendi.</p>
+                </div>
+            </div>
+
+            <div class="weather-toggle weather">
+
+                <div class="weather-heading"><span>Brighton, UK</span><br>Sunny</div>
+                <div class="weather-today">
+                    <img src="images/weather.png" alt="today weather">
+                    <h4>13&#8451;</h4>
+                </div>
+                <div class="weather-forcast">
+                    <div class="weather-week">
+                        <h5>Mon</h5><br>
+                        <img src="images/sunny.png" alt="sunny weather"><br>
+                        <h5>13&#8451;</h5>
+                    </div>
+                    <div class="weather-week">
+                        <h5>Tues</h5><br>
+                        <img src="images/cloudy.png" alt="sunny weather"><br>
+                        <h5>13&#8451;</h5>
+                    </div>
+                    <div class="weather-week">
+                        <h5>Wed</h5><br>
+                        <img src="images/cloudy.png" alt="sunny weather"><br>
+                        <h5>13&#8451;</h5>
+                    </div>
+                    <div class="weather-week">
+                        <h5>Thu</h5><br>
+                        <img src="images/rain.png" alt="sunny weather"><br>
+                        <h5>13&#8451;</h5>
+                    </div>
+                    <div class="weather-week">
+                        <h5>Fri</h5><br>
+                        <img src="images/sunny.png" alt="sunny weather">
+                        <h5>13&#8451;</h5>
+                    </div>
+                </div>
             </div>
         </section>
 
@@ -60,31 +100,31 @@
                     <th class="row-heading">score</th>
                     <th class="row-heading">team</th>
                 </tr>
-                <tr class="row-all">
+                <tr class="row-all odd">
                     <td class="row-first">Friday</td>
                     <td class="row-data">Bears</td>
                     <td class="row-data">95<span>&nbsp;</span><strong>109</strong></td>
                     <td class="row-data"><strong>Cubs</strong></td>
                 </tr>
-                <tr class="row-all">
+                <tr class="row-all even">
                     <td class="row-first">Friday</td>
                     <td class="row-data"><strong>Otters</strong></td>
                     <td class="row-data"><strong>3</strong><span>&nbsp;</span>1</td>
                     <td class="row-data">Cubs</td>
                 </tr>
-                <tr class="row-all">
+                <tr class="row-all odd">
                     <td class="row-first">Saturday</td>
                     <td class="row-data"><strong>Wolves</strong></td>
                     <td class="row-data"><strong>7</strong><span>&nbsp;</span>0</td>
                     <td class="row-data">Panthers</td>
                 </tr>
-                <tr class="row-all">
+                <tr class="row-all even">
                     <td class="row-first">Sunday</td>
                     <td class="row-data">Hawks</td>
                     <td class="row-data">11<span>&nbsp;</span><strong>12</strong></td>
                     <td class="row-data"><strong>Capons</strong></td>
                 </tr>
-                <tr class="row-all">
+                <tr class="row-all odd">
                     <td class="row-first">Sunday</td>
                     <td class="row-data"><strong>Stags</strong></td>
                     <td class="row-data"><strong>6</strong><span>&nbsp;</span>2</td>
@@ -93,7 +133,7 @@
             </table>
         </section>
 
-        <section class="weather">
+        <section class="weather weather-none">
             <div class="weather-heading"><span>Brighton, UK</span><br>Sunny</div>
             <div class="weather-today">
                 <img src="images/weather.png" alt="today weather">

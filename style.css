@@ -51,7 +51,7 @@ img {
 .header {
     display: flex;
     align-items: center;
-    box-shadow: 0px 20px 10px -10px rgba(0,0,0,0.3);
+    box-shadow: 0px 20px 10px -10px rgba(0, 0, 0, 0.3);
 
 }
 
@@ -86,6 +86,11 @@ img {
 
 /* breaking news section style */
 
+.bnews-wrapper {
+    display: flex;
+    justify-content: stretch;
+}
+
 .bnews {
     display: flex;
     align-items: flex-end;
@@ -114,6 +119,10 @@ img {
     font-size: 1.5rem;
 }
 
+.weather-toggle {
+    display: none;
+}
+
 /* top news style */
 
 .tnews {
@@ -126,7 +135,7 @@ img {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
 .tnews-head {
@@ -139,7 +148,7 @@ img {
 
 .tnews-text {
     list-style: none;
-    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
 .tnews-text::before {
@@ -167,12 +176,12 @@ img {
 }
 
 .row-heading {
-    color: rgba(0,0,0,0.2);
+    color: rgba(0, 0, 0, 0.2);
     font-weight: 100;
 }
 
 .row-all {
-    color: rgba(0,0,0,0.8);
+    color: rgba(0, 0, 0, 0.8);
 }
 
 .row-data {
@@ -232,7 +241,7 @@ img {
 .lnews {
     color: gray;
     margin-bottom: 2rem;
-    box-shadow: 0px 2px 0px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 2px 0px 0px rgba(0, 0, 0, 0.2);
 }
 
 .lnews-row {
@@ -253,7 +262,7 @@ img {
 /* footer style */
 
 footer {
-    box-shadow: 0px 20px 10px -10px rgba(0,0,0,0.3);
+    box-shadow: 0px 20px 10px -10px rgba(0, 0, 0, 0.3);
 }
 
 .footer-space {
@@ -267,3 +276,156 @@ footer {
     margin-top: 1rem;
     width: 60%;
 }
+
+
+/* making responsive style ipad 768px */
+
+@media only screen and (max-width: 800px) {
+
+
+    /* Header Style */
+
+
+
+    .header-logo {
+        height: 150px;
+        width: 150px;
+        margin: 0.1rem;
+        zoom: 100%;
+    }
+
+    .header-text {
+        font-size: 25px;
+        font-weight: 100;
+        margin-left: 3rem;
+    }
+
+    /* navigation style */
+
+
+    /* breaking news section style */
+
+    .bnews-wrapper {
+        display: flex;
+        justify-content: left;
+    }
+
+    .bnews {
+        height: 25vh;
+        width: 60%;
+    }
+
+    .bnews-container {
+        background-color: rgba(0, 0, 0, 0.5);
+        color: white;
+    }
+
+    .bnews-heading {
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+
+    .bnews-text {
+        font-size: 0.5rem;
+    }
+
+
+
+    /* weather section style */
+
+    .weather-toggle {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .weather {
+        width: 40%;
+        padding-bottom: 2rem;
+    }
+
+    .weather img {
+        zoom: 50%;
+    }
+
+    .weather-heading {
+        line-height: 1;
+        padding-left: 1px;
+        padding-bottom: 1px;
+    }
+
+    .weather-heading span {
+        font-size: 1rem;
+    }
+
+    .weather-today {
+        padding-left: 1px;
+        padding-bottom: 1px;
+    }
+
+    .weather-today h4 {
+        font-size: 0.5rem;
+        padding-top: 1px;
+    }
+
+
+    /* top news style */
+
+
+    /* scoreboard style */
+
+
+
+    .scores {
+        line-height: 2;
+    }
+
+
+    .row-heading {
+        color: white;
+        background-color: lightslategray;
+    }
+
+    .odd {
+        background-color: gainsboro;
+    }
+
+    .even {
+        background-color: darkgray;
+    }
+
+    /* hide weather */
+
+    .weather-none {
+        display: none;
+    }
+
+
+
+    /* latest news section style */
+
+    .lnews {
+        color: gray;
+        margin-bottom: 1rem;
+    }
+
+    .lnews-row {
+        margin-top: 1rem;
+    }
+
+    .lnews-icon img {
+        height: 10vh;
+        width: 50vw;
+    }
+
+
+
+    /* footer style */
+
+
+}
+
+
+
+/* making responsive style iphone 414px */
+
+@media only screen and (max-width: 414px) {}
