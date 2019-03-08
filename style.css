@@ -219,10 +219,10 @@ img {
 
 .weather-forcast {
     display: flex;
+    justify-content: space-around;
 }
 
 .weather-week {
-    flex-grow: 1;
     text-align: center;
 }
 
