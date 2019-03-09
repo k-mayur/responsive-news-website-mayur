@@ -278,7 +278,7 @@ footer {
 }
 
 
-/* making responsive style ipad 768px */
+/* making responsive style ipad 800px */
 
 @media only screen and (max-width: 800px) {
 
@@ -317,7 +317,7 @@ footer {
 
     .bnews {
         height: 25vh;
-        width: 60%;
+        width: 58%;
     }
 
     .bnews-container {
@@ -431,7 +431,7 @@ footer {
 
 
 
-/* making responsive style iphone 414px */
+/* making responsive style iphone 450px */
 
 @media only screen and (max-width: 450px) {
 
@@ -464,7 +464,7 @@ footer {
 
     .bnews {
         height: 50vh;
-        width: 100vw;
+        width: 96vw;
     }
 
     .bnews-container {
