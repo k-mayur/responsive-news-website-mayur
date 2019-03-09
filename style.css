@@ -103,7 +103,7 @@ img {
 .bnews-container {
     background-color: aliceblue;
     color: darkgray;
-    width: 100vw;
+    width: 96vw;
     padding-top: 1rem;
     padding-bottom: 1rem;
     margin-left: 2px;
@@ -412,13 +412,11 @@ footer {
         color: gray;
         margin-bottom: 1rem;
     }
-
     .lnews-row {
         margin-top: 0.5rem;
         padding-top: 0.5rem;
         padding-left: 0.5rem;
     }
-
     .lnews-icon img {
         height: 15vh;
         width: 50vw;
